@@ -3,7 +3,7 @@ version: '3.8'
 services:
   memadmin:
     image: hatamiarash7/memcached-admin:${APP_VERSION}
-    container_name: ${APP_CONTAINER_NAME}
+    container_name: ${APP_NAME}
     restart: always
     ports:
      - '${APP_PORT}:80'
